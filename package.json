@@ -1,0 +1,49 @@
+{
+  "name": "hng13_stage-3",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "tess": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx mastra dev",
+    "build": "mastra build",
+    "start": "node --import=./.mastra/output/instrumentation.mjs .mastra/output/index.mjs",
+    "serve": "tsx src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulsCreate/HNG13_Stage-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulsCreate/HNG13_Stage-3/issues"
+  },
+  "homepage": "https://github.com/PaulsCreate/HNG13_Stage-3#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@mastra/core": "^0.23.3",
+    "@mastra/libsql": "^0.16.1",
+    "@mastra/memory": "^0.15.10",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mastra": "^0.17.7",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.9.2",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.39.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
