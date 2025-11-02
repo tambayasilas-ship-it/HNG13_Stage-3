@@ -7,7 +7,7 @@
     "tess": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx mastra dev",
     "build": "mastra build",
-    "start": "node --import=./.mastra/output/instrumentation.mjs .mastra/output/index.mjs",
+    "start": "tsx src/server.ts",
     "serve": "tsx src/server.ts"
   },
   "repository": {
