@@ -198,7 +198,7 @@ app.post("/a2a/agent/studySyncAgent", async (req, res) => {
         });
     }
 });
-// FIXED 404 handler - use proper Express syntax
+// 404 handler
 app.use((req, res) => {
     res.status(404).json({
         error: "Endpoint not found",
