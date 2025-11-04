@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx mastra dev",
     "build": "mastra build",
-    "start": "tsx src/server.ts",
-    "serve": "tsx src/server.ts"
+    "start": "npx tsx src/server.ts"
   },
   "repository": {
     "type": "git",
